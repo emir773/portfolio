@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  background-color: #0b080c;
+}
+
+main {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+main.main-active {
+  opacity: 1;
+}
+
+/* Split text styles */
+.split-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.split-word {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.split-char {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.split-line {
+  display: block;
+  overflow: hidden;
+} 
